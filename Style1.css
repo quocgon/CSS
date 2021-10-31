@@ -1,0 +1,334 @@
+.wrapper{
+    width: 100%;
+    background-color: #FFF0F5;
+    margin: auto ;
+}
+.clear{
+    clear: both;
+}
+*{
+    box-sizing: border-box;
+}
+.section-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    background-position: center center;
+} 
+
+/* Header css */
+.header{
+    background-color: #f8e1db;
+    height: 140px;
+}
+.logo{
+    padding: 15px 70px 0px 70px;
+}
+.logo img{
+    width: 5%;
+}
+.navbar ul{
+    list-style: none;
+    padding: 0px 75px 10px 75px;
+}
+.navbar ul li{
+    display: inline;
+    margin-right: 45px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.navbar ul li a:hover{
+    color: red;
+}
+.navbar span{
+    color: #e98767;
+}
+/* End header css */
+
+/* Carousel css */
+.carousel-bg{
+    background-image: url(img/BG.png);
+    height: 600px;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+}
+.intro-list{
+    float: left;
+    padding: 10px 10px;
+    border-radius: 40px;
+    margin-top: 35%;
+}
+.list-1{
+    background-color: #fff;
+    height: 40%;
+    width: 25%;
+    text-align: center;
+}
+.list-2{
+    background-color: #fff;
+    height: 40%;
+    width: 25%;
+    text-align: center;
+}
+.list-3{
+    background-color: #fff;
+    height: 40%;
+    width: 25%;
+    text-align: center;
+}
+.list-4{
+    background-color: #fff;
+    height: 40%;
+    width: 25%;
+    text-align: center;
+}
+.IMG{
+    padding-top: 30px;
+    height: 110px;
+    width: 85px;
+}
+.text{
+    font-size: 19px;
+    color: gray;
+    text-align: center;
+    padding: auto;
+}
+.text span{
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* End carousel css */
+
+/* Destination css */
+.destinations-up{
+    text-align: center;
+    margin-top: 15%;
+}
+.destinations-up h1{
+    color: gray;
+}
+.items-list{
+    float: left;
+    padding: 10px 10px;
+    border-radius: 40px;
+    text-align: center;
+}
+.items-up, .items-down{
+    float: left;
+    width: 100%;
+}
+.img-item .icon-item{
+    width: 50px;
+    height: 50px;
+    background: rgba(243, 245, 243, 0.7);
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.img-item .icon-item i:nth-child(1){
+    font-size: 21px;
+    margin: 16px 10px;
+}
+.img-item .icon-item{
+    color: red;
+}
+.item-1{
+    background-color: #fff;
+    width: 25%;
+    height: 400px;
+    position: relative;
+}
+.item-2{
+    background-color: #fff;
+    width: 25%;
+    height: 400px;
+    position: relative;
+}
+.item-3{
+    background-color: #fff;
+    width: 25%;
+    height: 400px;
+    position: relative;
+}
+.item-4{
+    background-color: #fff;
+    width: 25%;
+    height: 400px;
+    position: relative;
+}
+.item-5{
+    background-color: #fff;
+    width: 25%;
+    height: 400px;
+    position: relative;
+}
+.item-6{
+    background-color: #fff;
+    width: 25%;
+    height: 400px;
+    position: relative;
+}
+.item-7{
+    background-color: #fff;
+    width: 25%;
+    height: 400px;
+    position: relative;
+}
+.item-8{
+    background-color: #fff;
+    width: 25%;
+    height: 400px;
+    position: relative;
+}
+.IMG1{
+    margin: 25px 25px;
+    border-radius: 20px;
+}
+.title-item{
+    font-size: 20px;
+    font-weight: bold;
+}
+.text-item{
+    color: gray;
+}
+.btn{
+    width: 48%;
+    height: 10%;
+    font-weight: bold;
+    color: gray;
+    border-style: none;
+    border-radius: 30px;
+}
+.btn:hover{
+    background-color: paleturquoise;
+    color: black;
+}
+.btn-item{
+    text-align: center;
+    margin: 20px 0px;
+}
+.btn1{
+    width: 170px;
+    height: 40px;
+    color: red;
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.btn1:hover{
+    color: black;
+}
+/* End destination css */
+
+/* Banner CSS */
+.banner{
+    background-color: #f8e1db;
+    height: 400px;
+    border-radius: 40px;
+}
+.banner-left{
+    width: 40%;
+    float: left;
+}
+.banner-right{
+    width: 60%;
+    float: left;
+}
+.banner-icon{
+    background-image: url(img/mask.png);
+    width: 850px;
+    height: 400px;
+}
+.banner-icon img{
+    margin: 30px 85px;
+}
+.banner-right{
+    position: relative;
+}
+.right-up{
+    color: gray;
+    position: absolute;
+    top: 80px;
+    right: 50px;
+}
+.right-up span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.right-down{
+    color: gray;
+    position: relative;
+}
+.right-down-left{
+    width: 50%;
+    float: left;
+    position: absolute;
+    top: 170px;
+    right: 270px;
+}
+.right-down-right{
+    width: 50%;
+    float: left;
+    position: absolute;
+    top: 170px;
+    left: 470px;
+}
+.sp{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.icon{
+    font-size: 20px;
+    margin-right: 10px;
+    color: red;
+}
+/* End banner CSS */
+
+/* Contact-us CSS*/
+.contact-us{
+    background-color:#f8e1db;
+    height: 350px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-top: 80px;
+}
+.intro-contact-us{
+    float: left;
+}
+.contact-us-list{
+    width: 100%;
+    padding: 60px 50px 0 50px;
+}
+.contact-us-list-1{
+    width: 40%;
+    margin-right: 40px;
+}
+.contact-us-list-2{
+    width: 15%;
+    margin-right: 40px;
+}
+.contact-us-list-3{
+    width: 15%;   
+    margin-right: 40px;
+}
+.contact-us-list-4{
+    width: 15%;
+}
+.sp-contact-us{
+    font-size: 19px;
+    font-weight: bold;
+}
+p.p-contact-us{
+    line-height: 30px;
+    text-align: left;
+}
+.end-contact-us{
+    text-align: center;
+    padding-top: 20px;
+}
+/* End Contact-us CSS*/
